@@ -1,0 +1,66 @@
+:root {
+	font-size: 62.5%;
+	font-family: "Poppins";
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+}
+
+body {
+	font-size: 1.6rem;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 1rem;
+	height: 100vh;
+}
+
+.title {
+	font-size: 3.6rem;
+	margin-top: 7rem;
+}
+
+.sub-title {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	margin-top: 3.8rem;
+}
+
+.team-brief {
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	max-width: 33rem;
+}
+
+.img-tiles {
+	margin-top: 3.8rem;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+
+.card {
+	width: 18.6rem;
+	display: flex;
+}
+
+.card-img > img {
+	max-width: 13.8rem;
+	display: block;
+}
+
+.card-role {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.card-role p {
+	transform: rotate(90deg);
+	position: absolute;
+	top: 6rem;
+	right: -8rem;
+	width: 14rem;
+	text-transform: uppercase;
+}
